@@ -1,0 +1,143 @@
+body{
+    margin:0px;
+    background:#eee;
+    font-family:calibri;
+    }
+    .login{
+    padding:20px;
+    width:40%;
+    margin:auto auto;
+    background:#fff;
+    font-size:18px;
+    }
+    .login h2{
+    text-align:center;
+    }
+    .login form{
+    border:1px solid #ccc;
+    padding:30px;
+    line-height:200%;
+    }
+    .login input{
+    width:100%;
+    line-height:200%;
+}
+.utama{
+padding:20px;
+width:80%;
+margin:auto auto;
+background:#fff;
+overflow:hidden;
+}
+.atas{
+margin-bottom:15px;
+background:#999;
+overflow:hidden;
+}
+.atas h2{
+padding:10px;
+color:#fff;
+}
+.logo{
+float:left;
+width:85px;
+}
+.kiri{
+float:left;
+width:20%;
+margin-bottom:10px;
+}
+.kiri ul{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+.kiri ul li{
+margin-bottom:10px;
+}
+.kiri a,.kiri a:active{
+text-decoration:none;
+color:#fff;
+display:block;
+background:#66aa00;
+padding:5px;
+border-top-right-radius:10px 10px;
+border-bottom-right-radius:10px 10px;
+}
+.kanan{
+float:right;
+width:75%;
+margin-bottom:10px;
+border:1px solid #ccc;
+padding:10px;
+min-height:400px;
+}
+.kanan h3{
+display:block;
+margin-top:0px;
+padding-bottom:10px;
+border-bottom:1px solid #696;
+}
+.kanan button{
+margin-bottom:10px;
+}
+.fhead button,.fhead form{
+display:inline-block;
+}
+.kanan a{
+text-decoration:none;
+}
+.kanan form{
+line-height:200%;
+}
+.kanan table{
+width:100%;
+border-collapse:collapse;
+}
+.kanan table tr td,.kanan table tr th{
+padding:5px;
+}
+.kanan table tr th{
+background:#eee;
+}
+legend{
+background:#666;
+ color: #fff;
+ padding: 2px 10px;
+}
+.bt{
+color:#fff;
+padding:5px 10px;
+border:none;
+}
+.bt-edit{
+background:#fa0;
+}
+.bt-del{
+background:#707;
+}
+.bt-login{
+background:#707;
+font-size:18px;
+}
+@media screen and (max-width:700px){
+.utama{
+width:90%;
+}
+.kiri,.kanan{
+display:block;
+width:100%;
+float:left;
+}
+.kanan{
+padding:-10px;
+width:96.5%;
+min-height:200px;
+}
+.logo{
+display:none;
+}
+.atas h2{
+font-size:16px;
+}
+}
